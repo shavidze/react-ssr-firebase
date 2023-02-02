@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "ssr-react-firebase-c02f7",
-    "ssr": "ssr-react-firebase-c02f7"
+    "public": "react-tut-184010"
   },
   "targets": {},
   "etags": {}
