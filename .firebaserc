@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "ssr-react-firebase-c02f7",
+    "ssr": "ssr-react-firebase-c02f7"
+  },
+  "targets": {},
+  "etags": {}
+}
