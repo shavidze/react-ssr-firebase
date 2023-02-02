@@ -27,11 +27,7 @@ var App = function App(_ref) {
     onClick: function onClick() {
       return setCount(count + 1);
     }
-  }, "Increase"), /*#__PURE__*/_react.default.createElement("div", {
-    style: {
-      margin: "20px"
-    }
-  }, count), /*#__PURE__*/_react.default.createElement("button", {
+  }, "Increase"), /*#__PURE__*/_react.default.createElement("div", null, count), /*#__PURE__*/_react.default.createElement("button", {
     onClick: function onClick() {
       return setCount(count - 1);
     }

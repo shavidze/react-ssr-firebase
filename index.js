@@ -12,7 +12,7 @@ const index = fs.readFileSync(
 );
 
 app.use("^/$", (req, res, next) => {
-  const html = `${renderToString(<App initialValue={10} />)}`;
+  const html = `${renderToString(<App />)}`;
   const replacedHTML = index.replace(
     `<div id="root"></div>`,
     `<div id="root">${html}</div>`

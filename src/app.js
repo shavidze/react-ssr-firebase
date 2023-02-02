@@ -7,7 +7,7 @@ const App = ({ initialValue = 1 }) => {
     <>
       <div className="App">
         <button onClick={() => setCount(count + 1)}>Increase</button>
-        <div style={{ margin: "20px" }}>{count}</div>
+        <div>{count}</div>
         <button onClick={() => setCount(count - 1)}>Decrease</button>
       </div>
     </>

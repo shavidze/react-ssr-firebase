@@ -18,9 +18,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 var app = (0, _express.default)();
 var index = _fs.default.readFileSync(_path.default.resolve(__dirname, "..") + "/public/index.html", "utf-8");
 app.use("^/$", function (req, res, next) {
-  var html = "".concat((0, _server.renderToString)( /*#__PURE__*/_react.default.createElement(_app.default, {
-    initialValue: 10
-  })));
+  var html = "".concat((0, _server.renderToString)( /*#__PURE__*/_react.default.createElement(_app.default, null)));
   var replacedHTML = index.replace("<div id=\"root\"></div>", "<div id=\"root\">".concat(html, "</div>"));
   res.set("Cache-Control", "public max-age=600, s-maxage=1200");
   return res.send(replacedHTML);
