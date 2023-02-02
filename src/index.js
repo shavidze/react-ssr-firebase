@@ -1,4 +1,4 @@
 import React from "react";
-import {} from "react-dom";
+import { hydrateRoot } from "react-dom/client";
 import App from "./app";
-hydrateRoot(document.getElementById("root"), <App initialValue={10} />);
+hydrateRoot(document.getElementById("root"), <App />);

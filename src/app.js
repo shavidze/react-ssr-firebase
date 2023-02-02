@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 
-const App = ({ initialValue }) => {
+const App = ({ initialValue = 1 }) => {
   const [count, setCount] = useState(initialValue);
 
-  if (typeof window === "undefined") return <>x</>;
   return (
     <>
       <div className="App">
